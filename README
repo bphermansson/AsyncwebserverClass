@@ -1,0 +1,8 @@
+This project uses the Asyncwebserver (https://github.com/me-no-dev/ESPAsyncWebServer) library to
+create a simple webserver. Most of the server code is placed in it's own class which makes the 
+code easier to handle and more portable. 
+To make this work the files in the data folder has to be uploaded to the ESP8266 separatly. 
+-Click the PIO icon.
+-Select env:nnn (the borad you are using)
+'Platform/Build Filesystem' Image and them
+'Upload Filesystem Image'. Done.
