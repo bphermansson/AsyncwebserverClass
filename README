@@ -6,3 +6,5 @@ To make this work the files in the data folder has to be uploaded to the ESP8266
 -Select env:nnn (the board you are using)
 'Platform/Build Filesystem' Image and them
 'Upload Filesystem Image'. Done.
+
+Code is written in VSCode/PlatformIO for an ESP8266-based Wemos card. It shows a dynamically updated styled webpage with the current runtime (the millis() command).
